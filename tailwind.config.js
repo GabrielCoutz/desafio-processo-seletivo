@@ -6,6 +6,18 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    extend: {
+      borderRadius: {
+        'base': '32px'
+      },
+      padding: {
+        '1/2': '6px',
+        '3/2': '14px'
+      },
+      margin: {
+        '1/2': '6px'
+      }
+    },
       fontFamily: {
         'primary': 'Poppins, sans-serif',
       },
@@ -32,21 +44,23 @@ module.exports = {
           200: '#FAFAFA',
           300: '#00000014'
         },
+        green: '#6da544'
       },
       fontSize: {
         'sm-1': ['10px', '16px'],
         'sm-2': ['11px', '11px'],
+        'sm-3': ['12px', '18px'],
 
-        'sm-3': ['13px', '25px'],
-        'sm-4': ['13px', '21px'],
-        'sm-5': ['13px', '40px'],
+        'sm-4': ['13px', '25px'],
+        'sm-5': ['13px', '21px'],
+        'sm-6': ['13px', '40px'],
 
-        'sm-6': ['14px', '30px'],
-        'sm-7': ['14px', '24px'],
-        'sm-8': ['14px', '21px'],
+        'sm-7': ['14px', '30px'],
+        'sm-8': ['14px', '24px'],
+        'sm-9': ['14px', '21px'],
 
-        'sm-9': ['15px', '18px'],
-        'sm-10': ['15px', '21px'],
+        'sm-10': ['15px', '18px'],
+        'sm-11': ['15px', '21px'],
 
         'base-1': ['16px','25px'],
         'base-2': ['16px','24px'],
@@ -61,8 +75,9 @@ module.exports = {
         'xl-2': ['40px','48px'],
       },
       backgroundImage: {
-        intro: "url('../assets/burguer/burguer_2.png')"
-      }
+        intro: "url('../assets/burguer/burguer_2.png')",
+        gradient: 'linear-gradient(258deg, #FA641E, #FF881F)'
+      },
   },
   plugins: [],
 }
