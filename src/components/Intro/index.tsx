@@ -4,7 +4,7 @@ import { Form } from "../Form";
 
 export const Intro = () => {
   return (
-    <div className="bg-gradient">
+    <div className="bg-gradient pb-16">
       <div className="container relative bg-intro bg-no-repeat bg-[155%_-5%] px-4 py-8">
         <main className="mb-10">
           <h1 className="text-xl-2 font-bold text-white-100 block me-20 mb-5">
@@ -62,7 +62,7 @@ export const Intro = () => {
 
           <span className="text-gray-600 text-sm-5">
             Ao continuar, aceito que a Pigz entre em contato comigo por
-            telefone, e-mail ou Whatsapp.
+            telefone, e-mail ou WhatsApp.
           </span>
 
           <Button.Primary fullWidth className="py-3 mt-10 rounded-2xl">
