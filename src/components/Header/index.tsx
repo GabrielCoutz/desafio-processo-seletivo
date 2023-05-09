@@ -6,7 +6,9 @@ export const Header = () => {
   return (
     <header className="flex justify-between p-4">
       <Logo />
-      <Button.Primary className="text-sm-8">Já sou parceiro</Button.Primary>
+      <Button.Primary gradient shadow className="text-sm-9">
+        Já sou parceiro
+      </Button.Primary>
     </header>
   );
 };
