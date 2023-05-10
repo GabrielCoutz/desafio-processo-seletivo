@@ -18,8 +18,8 @@ export const Printer = () => {
           y2="1"
           gradientUnits="objectBoundingBox"
         >
-          <stop offset="0" stop-color="#fa641e" />
-          <stop offset="1" stop-color="#ff881f" />
+          <stop offset="0" stopColor="#fa641e" />
+          <stop offset="1" stopColor="#ff881f" />
         </linearGradient>
       </defs>
       <path

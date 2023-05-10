@@ -28,7 +28,7 @@ export const PigzPigz = ({ className }: { className?: string }) => {
           transform="translate(-561.785 -602.785)"
           fill="#fa641e"
           stroke="rgba(0,0,0,0)"
-          stroke-width="1"
+          strokeWidth="1"
         />
       </g>
     </svg>
