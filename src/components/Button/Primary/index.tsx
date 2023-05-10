@@ -8,9 +8,11 @@ export const Primary = ({
   fullHeight,
   gradient,
   shadow,
+  onClick,
 }: ButtonProps) => {
   return (
     <button
+      onClick={onClick}
       className={`rounded-base py-1/2 px-6 text-white-100 
       ${fullWidth ? "w-full" : ""}
       ${fullHeight ? "h-full" : ""}

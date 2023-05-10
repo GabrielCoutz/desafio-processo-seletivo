@@ -7,6 +7,7 @@ export interface ButtonProps {
   fullWidth?: boolean;
   fullHeight?: boolean;
   shadow?: boolean;
+  onClick?: () => void;
 }
 
 export const Button = {
