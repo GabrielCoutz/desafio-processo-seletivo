@@ -7,8 +7,8 @@ export const Marketplace = () => {
     useOrangeCards();
 
   return (
-    <section className="bg-white-100">
-      <div className="px-4">
+    <section className="bg-white-100 px-4">
+      <div>
         <h1 className="text-xl-1 font-bold text-gray-800 text-center pt-10">
           Tudo que você <br /> precisa por apenas <br /> R$199/mês
         </h1>
@@ -40,9 +40,7 @@ export const Marketplace = () => {
         className="bg-gradient rounded-4xl h-96 hover:cursor-pointer"
         onClick={handleClickCard}
       >
-        <div
-          className={`bg-bottom h-full bg-no-repeat p-10 pb-0 select-none flex flex-col justify-between`}
-        >
+        <div className="h-full p-10 pb-0 select-none flex flex-col justify-between">
           <p className="text-white-100 font-light text-sm-11 text-center max-w-[302px] mx-auto">
             {activeCard.text}
           </p>
