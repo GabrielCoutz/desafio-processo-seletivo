@@ -15,7 +15,7 @@ export const CardsSection = () => {
       </h1>
       <ul className="flex flex-col items-center gap-5">
         <li>
-          <Card.Wrapper border>
+          <Card.Wrapper>
             <Card.Icon>
               <Store />
             </Card.Icon>
@@ -24,7 +24,7 @@ export const CardsSection = () => {
           </Card.Wrapper>
         </li>
         <li>
-          <Card.Wrapper border>
+          <Card.Wrapper>
             <Card.Icon>
               <Smartphone />
             </Card.Icon>
