@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { CardsSection } from "../components/CardsSection";
 import { Intro } from "../components/Intro";
 import { Marketplace } from "../components/Marketplace";
@@ -10,6 +11,9 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Desafio - Pigz</title>
+      </Head>
       <IntroFormContext.Provider
         value={{ forms, initialForm: currentForm, toggleNextForm }}
       >
