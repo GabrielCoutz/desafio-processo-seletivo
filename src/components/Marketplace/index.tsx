@@ -17,7 +17,7 @@ export const Marketplace = () => {
           <span className="w-full h-1 bg-gray-100 rounded-lg"></span>
           <span className="w-full h-1 bg-gray-100 rounded-lg"></span>
         </div>
-
+ 
         <h2 className="text-md-3 font-semibold text-gray-800 text-center mb-5">
           Pigz Marketplace
         </h2>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../Button";
+import { Whatsapp } from "../Icon/Whatsapp";
 import { Plan } from "../Plan";
 
 export const Pricing = () => {
@@ -44,7 +45,7 @@ export const Pricing = () => {
               list={[
                 { id: 6, item: "Aceite pix e Cartão de Crédito" },
                 { id: 7, item: "Antecipação Pix Automática" },
-                { id: 8, item: "Não depende de maquininha de cartão" },
+                { id: 8, item: "Não dependa de maquininha de cartão" },
                 { id: 9, item: "Segurança para receber pedidos" },
                 { id: 10, item: "Agilidade para entregar" },
               ]}
@@ -58,6 +59,14 @@ export const Pricing = () => {
           </Plan.Wrapper>
         </li>
       </ul>
+
+      <span className="flex justify-center items-center text-base-1 font-medium text-gray-800 pt-8 pb-14">
+        Fale com a Pigz <Whatsapp className="ms-4 me-2" />
+        <span>
+          <span className="text-sm-4 me-1">95</span>
+          3224-2603
+        </span>
+      </span>
     </section>
   );
 };
