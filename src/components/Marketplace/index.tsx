@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { useOrangeCards } from "../../hooks/useOrangeCards";
 
@@ -39,12 +40,11 @@ export const Marketplace = () => {
         className="bg-gradient rounded-4xl h-96 hover:cursor-pointer"
         onClick={handleClickCard}
       >
-        <div
-          className={`bg-bottom h-full bg-no-repeat p-10 bg-${activeCard.bg}`}
-        >
-          <p className="text-white-100 font-light text-sm-11 text-center max-w-[302px] mx-auto select-none">
+        <div className={`bg-bottom h-full bg-no-repeat p-10 pb-0 select-none`}>
+          <p className="text-white-100 font-light text-sm-11 text-center max-w-[302px] mx-auto">
             {activeCard.text}
           </p>
+          {activeCard.bg}
         </div>
       </div>
     </section>

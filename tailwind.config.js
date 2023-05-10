@@ -4,7 +4,6 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
     './src/app/**/*.{js,ts,jsx,tsx}',
-    './src/assets/**/*.{png}',
   ],
   theme: {
     extend: {
@@ -76,10 +75,6 @@ module.exports = {
       },
       backgroundImage: {
         intro: "url('../assets/burguer/burguer_2.png')",
-        phones: "url('../assets/orange-cards/phones.png')",
-        mobileNotebook: "url('../assets/orange-cards/mobile-notebook.png')",
-        delivery: "url('../assets/orange-cards/delivery.png')",
-        handCard: "url('../assets/orange-cards/handCard.png')",
         gradient: 'linear-gradient(258deg, #FA641E, #FF881F)'
       },
   },
