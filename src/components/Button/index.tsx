@@ -5,6 +5,7 @@ export interface ButtonProps {
   className?: string;
   gradient?: boolean;
   fullWidth?: boolean;
+  fullHeight?: boolean;
   shadow?: boolean;
 }
 
