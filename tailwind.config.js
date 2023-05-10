@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       borderRadius: {
-        'base': '32px'
+        'base': '32px',
+        '4xl': '64px'
       },
       padding: {
         '1/2': '6px',
@@ -50,15 +51,12 @@ module.exports = {
         'sm-1': ['10px', '16px'],
         'sm-2': ['11px', '11px'],
         'sm-3': ['12px', '18px'],
-
         'sm-4': ['13px', '25px'],
         'sm-5': ['13px', '21px'],
         'sm-6': ['13px', '40px'],
-
         'sm-7': ['14px', '30px'],
         'sm-8': ['14px', '24px'],
         'sm-9': ['14px', '21px'],
-
         'sm-10': ['15px', '18px'],
         'sm-11': ['15px', '21px'],
 
@@ -66,8 +64,9 @@ module.exports = {
         'base-2': ['16px','24px'],
         'base-3': ['16px','40px'],
 
-        'md-1': ['24px','40px'],
-        'md-2': ['24px','80px'],
+        'md-1': ['20px','80px'],
+        'md-2': ['24px','40px'],
+        'md-3': ['24px','80px'],
 
         'lg-1': ['28px','40px'],
 
@@ -76,6 +75,10 @@ module.exports = {
       },
       backgroundImage: {
         intro: "url('../assets/burguer/burguer_2.png')",
+        phones: "url('../assets/orange-cards/phones.png')",
+        mobileNotebook: "url('../assets/orange-cards/mobile-notebook.png')",
+        delivery: "url('../assets/orange-cards/delivery.png')",
+        handCard: "url('../assets/orange-cards/handCard.png')",
         gradient: 'linear-gradient(258deg, #FA641E, #FF881F)'
       },
   },
