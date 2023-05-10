@@ -1,12 +1,17 @@
 import React, { HtmlHTMLAttributes, PropsWithChildren } from "react";
 
-export const Select = (
-  props: PropsWithChildren<HtmlHTMLAttributes<HTMLSelectElement>>
-) => {
+interface SelectProps
+  extends PropsWithChildren<HtmlHTMLAttributes<HTMLSelectElement>> {
+  name: string;
+}
+
+export const Select = (props: SelectProps) => {
   return (
     <select
       {...props}
-      className={`bg-gray-200 rounded-2xl p-3 text-gray-400 ${props.className}`}
+      name={props.name}
+      id={props.name}
+      className={`p-3 rounded-2xl border border-gray-500 text-gray-400 ${props.className}`}
     >
       {props.children}
     </select>

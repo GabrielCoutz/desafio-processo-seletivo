@@ -12,7 +12,7 @@ export const Input = (props: InputProps) => {
       name={props.id}
       id={props.id}
       type={props.type}
-      className={`px-4 py-3/2 text-sm-5 border border-gray-500 rounded-2xl w-full ${props.className}`}
+      className={`px-4 py-3/2 text-sm-5 border border-gray-500 rounded-2xl w-full placeholder-gray-300 ${props.className}`}
     />
   );
 };
